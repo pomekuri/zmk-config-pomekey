@@ -49,10 +49,10 @@
         default_layer {
             display-name = "Default";
             bindings = <
-&kp Q      &kp W      &kp E      &kp R      &kp T       &none        &none        &kp Y      &kp U      &kp I      &kp O      &kp P
-&kp A      &kp S      &kp D      &kp F      &kp G       &kp ENTER     &kp ENTER     &kp H      &kp J      &kp K      &kp L      &kp BSLH
-&kp Z      &kp X      &kp C      &kp V      &kp B       &kp LALT      &kp RALT      &kp N      &kp M      &kp COMMA  &kp DOT    &kp SLASH
-&kp LCTRL  &kp LSHIFT &none      &none      &lt 1 SPACE &lt 2 TAB    &lt 3 BSPC   &kp LALT   &none      &none      &kp RCTRL  &kp RIGHT
+&kp Q                 &kp W        &kp E        &kp R      &kp T       &none        &none        &kp Y      &kp U      &kp I      &kp O      &kp P
+&kp A                 &kp S        &kp D        &kp F      &kp G       &kp ENTER     &kp BSPC     &kp H      &kp J      &kp K      &kp L      &kp BSLH
+&mt LEFT_SHIFT Z      &kp X        &kp C        &kp V      &kp B       &kp LALT      &kp RALT      &kp N      &kp M      &kp COMMA  &kp DOT    &kp SLASH
+&kp LCTRL             &kp LEFT_WIN &none        &none      &lt 1 SPACE &lt 2 TAB    &lt 3 BSPC   &kp LALT   &none      &none      &kp RCTRL  &kp RIGHT
 &none                                                                                                           &none
             >;
 
@@ -73,7 +73,7 @@
         };
 
         layer_2 {
-            display-name = "Bluetooth";
+            display-name = "Mark";
             bindings = <
 &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none        &none      &none      &none      &none      &none        &bootloader
 &bt BT_SEL 4 &none        &none        &none        &none        &trans       &trans     &none      &none      &none      &none        &sys_reset
@@ -84,7 +84,7 @@
         };
 
         layer_3 {
-            display-name = "Mouse";
+            display-name = "Bluetooth";
             bindings = <
 &trans     &trans       &trans       &trans       &trans       &none        &none      &trans     &trans       &trans       &trans       &trans
 &trans     &trans       &trans       &trans       &trans       &trans       &trans     &trans     &mkp MB1     &mkp MB3     &mkp MB2     &trans
